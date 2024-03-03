@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: hsl(30, 54%, 90%);
+  font-family: Inter;
+}
+
+.parent {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100dvh;
+}
+.container {
+  width: 400px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 0.5rem;
+  height: 55rem;
+  max-height: 100vdh;
+}
+img {
+  height: 8rem;
+  width: 370px;
+  margin: 10px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+h1 {
+  margin-left: 15px;
+  font-size: 25px;
+  font-weight: 700;
+}
+.first {
+  margin-left: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 10px;
+}
+.time {
+  margin: 15px;
+  padding-left: 15px;
+  padding-top: 10px;
+  background: hsl(30, 54%, 90%);
+  height: 6rem;
+}
+h2 {
+  font-size: 18px;
+  font-weight: 600;
+  color: hsl(14, 45%, 36%);
+  margin-bottom: 10px;
+}
+.Preparation {
+  font-size: 10px;
+  font-weight: 400;
+  margin-left: 15px;
+}
+li {
+  margin-bottom: 8px;
+}
+li::marker {
+  color:  hsl(14, 45%, 36%);
+  font-weight: bolder;
+}
+h3 {
+  margin-left: 15px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: hsl(14, 45%, 36%);
+}
+.Ingredients {
+  margin-left: 30px;
+  font-size: 10px;
+  font-weight: 400;
+}
+h4 {
+  margin-left: 15px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: hsl(14, 45%, 36%);
+}
+ol {
+  margin-left: 30px;
+  font-size: 10px;
+  font-weight: 400;
+}
+hr {
+  margin: 15px;
+  border: 0.1px solid;
+  border-color: hsl(30, 18%, 87%);
+}
+h5 {
+  margin-left: 15px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: hsl(14, 45%, 36%);
+}
+.tab {
+  margin-left: 15px;
+  font-size: 10px;
+  font-weight: 400;
+}
+table {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 15px;
+  border-collapse: collapse;
+}
+td {
+  padding: 5px;
+  font-size: 10px;
+}
+colgroup {
+  width: 200px;
+}
+tr {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
